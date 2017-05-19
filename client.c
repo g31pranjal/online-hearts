@@ -271,8 +271,6 @@ int main() {
 								printf("%s\n\nERROR : card has already been played.\n%s",BOLDRED, RESET);
 								continue;
 							}
-
-
 						}
 
 						break;

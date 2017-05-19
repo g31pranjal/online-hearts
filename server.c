@@ -694,8 +694,8 @@ int main() {
 				printf("new socket descriptor in child process: %d, %d, %d, %d\n", newSocket[0], newSocket[1], newSocket[2], newSocket[3]);
 
 				game_room();
-				random_generate(1);
-				game_logic(1);
+				// random_generate(1);
+				// game_logic(1);
 				random_generate(2);
 				game_logic(3);
 				random_generate(3);
